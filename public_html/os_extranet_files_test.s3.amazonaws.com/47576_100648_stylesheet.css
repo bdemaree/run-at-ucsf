@@ -1,0 +1,317 @@
+/*	Top Nav Template for UCSF
+	Updated: 12/13/2012
+   	----------------------------------------------------*/
+
+/*	CONTENTS:
+	CSS Reset
+	Generic 
+	Header
+	Header Nav
+	Banner
+	Navigation
+	Content
+	Sidebar
+	Footer
+	Modules
+*/
+
+/* CSS Reset
+   ----------------------------------------------------*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body, div, p, form, input, select, textarea, fieldset {
+	font: 12px/15px "Source Sans Pro";
+	color: #333333;
+}
+
+a img {
+	border: 0 none;
+}
+
+/* Generic
+   ----------------------------------------------------*/
+body{
+	background: #DFDFDF;
+	margin:0px; padding:0px;
+font-family: 'Source Sans Pro', sans-serif;
+	/*font-family: "Helvetica Neue";*/
+	font-size: 15px;
+	line-height: 1.5em;
+}
+
+a { 
+    color: #333;
+}
+
+a:hover{ 
+    text-decoration: underline; 
+}
+
+code {
+    background-color: #E7E7E7;
+    color: #333333;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 2px;
+}
+
+#wrapper{
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	width: 960px;
+}
+
+/* Header
+   ----------------------------------------------------*/
+#header {
+	background-color: #052049;
+	height: 28px;
+	padding: 5px 0;
+	position:absolute;
+	width: 100%;
+	z-index:1;
+}
+
+#logo {
+	margin: 0 auto;
+	width: 960px;
+        text-align: left;
+        line-height: 30px;
+        vertical-align: middle;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: white;
+}
+
+#logo a {
+	background: url("../os_extranet_images.s3.amazonaws.com/461588_original.png") no-repeat;
+        background-size: auto 100%;
+        display: inline-block;
+	float: left;
+	height: 30px;
+       width: 500px;
+        text-align: left;
+        line-height: 30px;
+        vertical-align: middle;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: white;
+}
+
+/* Header Nav
+   ----------------------------------------------------*/
+#header_nav {
+	margin: 0 auto;
+	width: 960px;
+}
+
+#header_nav ul {
+	margin: 0 auto;
+	padding: 5px 0 0 0;
+	text-align: right;
+	width: 960px;
+}
+
+#header_nav ul li {
+	font-weight: bold;
+	list-style-type: none;
+	display: inline;
+	padding: 0 10px;
+}
+
+#header_nav a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#header_nav a:hover {
+	color: #6CA5C6;
+	text-decoration: none;
+}
+
+/* Banner
+   ----------------------------------------------------*/
+#banner{
+	width: 960px;
+}
+
+#banner {
+	color: #333;
+	font-family: "Source Sans Pro";
+	font-size: 35px;
+	font-weight: bold;
+	margin: 0;
+	padding: 38px 0 0px 0px;
+       width: 960px;
+}
+
+/* Navigation
+   ----------------------------------------------------*/
+#navigation{
+       padding: 10px 50px 0px 195px;
+	width:700px;
+	float:left;
+	background-color: #ffffff;
+	font-family: "Source Sans Pro";
+       font-weight: bold;
+       font-size: 18px;
+	height: 18px;
+	text-transform: uppercase;
+}
+
+#navigation ul li{
+	display: block;
+	float:left;
+	margin-right: 60px;
+}
+
+#navigation a{
+	color: #000000;
+	text-decoration: none;
+}
+
+#navigation a:hover{
+	color: #ffffff;
+       background: #000000;
+}
+
+.center_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-top:0px;
+}
+
+/* Content
+   ----------------------------------------------------*/
+#content{
+	padding: 10px 20px 20px 25px;
+	width:610px;
+	float:left;
+}
+
+h1,h2,h3,h4,h5,h6{
+	color: #000000;
+	font-family: "Source Sans Pro";
+	font-weight: bold;
+	margin-bottom: 5px;
+	margin-top: 25px;
+}
+
+h2 + h3 {
+	margin-top: 10px;
+}
+
+#os_content h1 {
+	color: #000000;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+#os_content p {
+	font-family: "Source Sans Pro";
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 150%;
+}
+
+p { margin-top: 10px;}
+
+#content ul {
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+#content ul li {
+    padding: 3px;
+}
+
+/* Sidebar
+   ----------------------------------------------------*/
+#sidebar {
+	border-left: 1px dotted #DCE5E1;
+	float: right;
+	margin-top: 10px;
+	padding: 0px 20px 20px 20px;
+	width: 260px;
+}
+#sidebar h3{
+	border-bottom: 1px dotted #DCE5E1;
+	font-size: 17px;
+	color: #000000;
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 25px;
+	padding-bottom: 4px;
+}
+#sidebar ul li {
+	margin: 0;
+	padding: 5px 0 5px 0px;
+	list-style: none;
+
+}
+.bglink {
+background-size: 30px auto;
+background-repeat: no-repeat;
+background-position: center;
+display: inline-block;
+height: 32px;
+width: 35px;
+line-height: 32px;
+text-decoration: none;
+font-size: 15px;
+color: #000000;
+padding-left: 5px;
+}
+
+/* Footer
+   ----------------------------------------------------*/
+#footer{
+	background-color: #ffffff;
+	color: #000000;
+	font-size: 11px;
+	padding: 10px 0;
+	margin-top: 30px;
+	text-align: center;
+	width: 960px;
+}
+
+#poweredby {
+	margin: 20px auto;
+	width: 900px;
+}
+
+#poweredby a {
+	background-image: url(http://os_extranet_files_test.s3.amazonaws.com/s3.amazonaws.com/os_extranet_images/75350_original.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 36px;
+	margin: 0 auto;
+	overflow: hidden;
+	text-indent: -9999em;
+	width: 200px;
+}
+
+
+/* Modules
+   ----------------------------------------------------*/
+.mini_calendar thead {
+	background-color: #FFFFFF;
+}
+
+.mini_calendar caption {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+.mini_cal_nav a{
+	text-decoration: none;
+}
+
+#module_contact .pod-header {
+	display: none;
+}
