@@ -1,6 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script>
+$(function(){
+$("#includedContent").load("sidebar.html");
+});
+</script>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
 <!-- This is the title shown in your browser's title bar -->
@@ -78,8 +84,7 @@
 
 <hr/>
 
-<iframe src="https://orgsync.com/177425/calendar/iframe" style="border: 0; height: 850px; width: 100%; -webkit-transform:scale(0.98);-moz-transform-scale(0.98);" scrolling="no"></iframe>
-
+<iframe src="https://calendar.google.com/calendar/embed?src=bafktrm2fqr7q99rsk1bokr0l26u2egm%40import.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0; padding-top:10px" width="100%" height="650px" frameborder="0" scrolling="no"></iframe>
 </div>
 
 <div id="event_popup_box_wrapper" style="display:none;">
@@ -92,35 +97,7 @@
 </div>
 
 	</div>
-		<div id="sidebar">
-	<div class="module" id="module_mini_calendar">
-
-<div class="mini_cal" style="">
-		<h3>
-		Links</h3>
-	<ul>
-<li >
-<a class="bglink" href="https://www.facebook.com/groups/runatucsf" style="background-image:url('os_extranet_images.s3.amazonaws.com/461621_original.png');text-indent:-9999em;">hi</a>
-<a class="bglink" href="https://www.facebook.com/groups/runatucsf" style="width:auto;">Run at UCSF Facebook Group</a>
-</li>
-<li >
-<a class="bglink" href="https://www.strava.com/clubs/479478" style="background-image:url('os_extranet_images.s3.amazonaws.com/461620_original.png');text-indent:-9999em;">hi</a>
-<a class="bglink" href="https://www.strava.com/clubs/479478" style="width:auto;">Strava Club Page</a>
-</li>
-<li >
-<a class="bglink" href="https://orgsync.com/177425/chapter" style="background-image:url('os_extranet_images.s3.amazonaws.com/461622_original.png');text-indent:-9999em;">hi</a>
-<a class="bglink" href="https://orgsync.com/177425/chapter" style="width:auto;">Instagram</a>
-</li>
-<li >
-<a class="bglink" href="https://orgsync.com/177425/chapter" style="background-image:url('os_extranet_images.s3.amazonaws.com/461623_original.jpg');text-indent:-9999em;">hi</a>
-<a class="bglink" href="https://orgsync.com/177425/chapter" style="width:auto;">OrgSync Page</a>
-</li>
-	</ul>
-		</div>
-
-</div>
-
-</div>
+<div id="includedContent"></div>
 		<div style="clear:both;">
 
 <!-- start footer -->
